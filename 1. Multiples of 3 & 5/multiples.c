@@ -18,6 +18,8 @@ int main(void) {
 
 }
 
+// Checks if the argument passed is 
+// a multiple of 3
 bool is_multiple_of_3(int i) {
 
 	if ((i % 3) != 0) {
@@ -30,7 +32,8 @@ bool is_multiple_of_3(int i) {
 
 }
 
-
+// Checks if the argument passed is 
+// a multiple of 5
 bool is_multiple_of_5(int i) {
 	
 	if ((i % 5) != 0) {
